@@ -32,4 +32,5 @@ def main(ctx: typer.Context, argument: str = typer.Argument(...)):
     if ctx.params["argument"] == "set-password":
         app.registered_commands[0].callback()
     else:
+        log.info(f"Got {argument}")
         handle_uri(argument)

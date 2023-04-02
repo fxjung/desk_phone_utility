@@ -7,7 +7,7 @@ import logging
 log = logging.getLogger(__name__)
 
 
-def show_qt_questionbox(*, title: str, message: str) -> None:
+def show_qt_questionbox(*, title: str, message: str):
     """
     Launch a PySide6 application to show a question box dialog.
 

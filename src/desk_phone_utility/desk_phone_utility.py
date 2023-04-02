@@ -44,9 +44,9 @@ def initiate_call(phone_number: str) -> None:
 
 def handle_uri(uri: str) -> None:
     """
-    Handle tel URI. This incorporates parsing and sanitizing, displaying a GUI dialog
-    box to check whether we actually want to initiate the call and doing just that
-    if the user if the user clicks "Yes".
+    Handle tel/callto URI. This incorporates parsing and sanitizing, displaying a
+    GUI dialog box to check whether we actually want to initiate the call and
+    doing just that if the user clicks "Yes".
 
     Parameters
     ----------
@@ -54,7 +54,7 @@ def handle_uri(uri: str) -> None:
         tel URI
     """
     o = urllib.parse.urlparse(uri)
-    if o.scheme != "tel":
+    if o.scheme not in ["tel", "callto"]:
         raise ValueError("Not a tel URI")
 
     phone_number = urllib.parse.unquote(o.path)
