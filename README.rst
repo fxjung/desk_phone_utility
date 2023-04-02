@@ -1,3 +1,5 @@
+|Code style: black| |Docs|
+
 Desk Phone Utility
 ==================
 
@@ -71,3 +73,9 @@ desk_phone_utility can be configured through a toml config file located at
 automatically created during first launch. Alternatively, the example file can be
 downloaded :download:`here <../../src/desk_phone_utility/data/example_config.toml>`.
 
+
+.. |Code style: black| image:: https://img.shields.io/badge/code%20style-black-000000.svg
+   :target: https://github.com/psf/black
+
+.. |Docs| image:: https://github.com/fxjung/desk_phone_utility/actions/workflows/docs-gh-pages.yml/badge.svg
+   :target: https://github.com/fxjung/desk_phone_utility/actions/workflows/docs-gh-pages.yml
