@@ -7,7 +7,8 @@ This little utility allows to remotely control `snom <https://www.snom.com/>`_ V
 desk phones. In particular, it was tested with using a
 `snom D717 <https://www.snom.com/en/products/desk-phones/d7xx/snom-d717/>`_.
 
-The primary application of the utility is using to open ``tel`` URIs from the browser.
+The primary application of the utility is using to open ``tel`` and ``callto`` URIs
+from the browser.
 
 The documentation can be found at
 `fjung.com/desk_phone_utility <https://fjung.com/desk_phone_utility>`_, the source code at
