@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 Welcome to desk_phone_utility's documentation!
-========================================
+==============================================
 
 .. include:: ../../README.rst
 
@@ -13,9 +13,6 @@ Welcome to desk_phone_utility's documentation!
    :caption: Contents:
 
    modules
-
-
-
 
 
 Indices and tables

@@ -1,5 +1,5 @@
-desk_phone_utility
-==================
+API Reference
+=============
 
 .. toctree::
    :maxdepth: 4
