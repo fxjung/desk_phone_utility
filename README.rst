@@ -3,8 +3,9 @@
 Desk Phone Utility
 ==================
 
-This little utility allows to remotely control a `snom <https://www.snom.com/>`_ VoIP
-desk phone. It was tested in particular with a snom D717.
+This little utility allows to remotely control `snom <https://www.snom.com/>`_ VoIP
+desk phones. In particular, it was tested with using a
+`snom D717 <https://www.snom.com/en/products/desk-phones/d7xx/snom-d717/>`_.
 
 The primary application of the utility is using to open ``tel`` URIs from the browser.
 
