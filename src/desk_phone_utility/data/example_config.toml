@@ -1,0 +1,4 @@
+log_dir = "~/.local/share/desk_phone_utility"
+log_level = "INFO"
+phone_host = "<host>"
+phone_user = "<user>"
